@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Secular+One&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Fredoka+One&family=Secular+One&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Fredoka+One&family=Secular+One&family=Viga&display=swap');
+
+html
+{
+    scroll-behavior: smooth;
+}
+:root
+{
+    --font1: 'Kanit', sans-serif;
+    --font2: 'Patua One', cursive;
+    --font3: 'Acme', sans-serif;
+    --font4: 'Viga', sans-serif;
+    --font5: 'Secular One', sans-serif;
+    --font6: 'Fredoka One', cursive;
+}
+
+.font1
+{
+    font-family: var(--font1);
+}
+
+.font2
+{
+font-family: var(--font2);
+}
+
+.font3
+{
+font-family: var(--font3);
+}
+
+.font4
+{
+font-family: var(--font4);
+}
+
+.font5
+{
+font-family: var(--font5);
+}
+
+.font6
+{
+font-family: var(--font6);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.max-width-1{
+    max-width: 80vw;
+}
+
+.max-width-2
+{
+    max-width: 70vw;
+}
+
+.margin-auto
+{
+    margin: auto;
+}
+
+/* Navigation Menu CSS */
+
+.navigation
+{
+    margin-top: 10px;
+    /* background-color: rgb(103, 143, 143); */
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left
+{
+display: flex;
+}
+
+.myul
+{
+    padding: 0px 40px;
+    display: flex;
+    margin: auto 10px;
+    list-style: none;
+}
+
+.myul li
+{
+    color: black;
+    margin: auto 10px;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+.myul li:hover
+{
+    font-weight: 500;
+}
+
+.myul a
+{
+    text-decoration: none;
+}
+
+.search
+{
+    margin: 0 5px;
+    padding: 5px 30px;
+    font-size: 16px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.btn
+{
+padding: 5px 10px;
+cursor: pointer;
+border: 2px solid black;
+border-radius: 5px;
+font-weight: bold;
+font-size: 16px;
+}
+
+.btn:hover
+{
+    background-color: #e90707c7;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Content CSS Starts Here */
+
+.content
+{
+    /* background-color: rgb(92, 153, 131); */
+    height: 400px;
+    display: flex;
+}
+
+.content-left
+{
+font-family: var(--font1);
+/* width: 50%; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin: 0px 0px 0px 20px;
+/* align-items: center; */
+
+}
+
+.content-right
+{
+display: flex;
+/* width: 50%; */
+align-items: center;
+justify-content: center;
+}
+
+.content-right img
+{
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+
+.h-featured
+{
+    text-decoration: underline;
+}
+
+.home-article
+{
+    /* background-color: aquamarine; */
+    /* height: 1000px; */
+    padding: 10px;
+}
+
+.home-article h2
+{
+    text-align: center;
+}
+
+.article-home
+{
+    margin-top: 10px;
+display: flex;
+margin: 20px;
+}
+
+.article-home-img img
+{
+    height: 300px;
+    width: 300px;
+}
+
+.article-home-content
+{
+    align-self: center;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer CSS Begins Here */
+
+.footer
+{
+    background-color: rgb(56, 56, 59);
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    height: 50px;
+    color: white;
+}
+
+.footer-img
+{
+    height: 36px;
+    width: 80px;
+    margin-left: 5px;
+}
