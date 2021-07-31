@@ -146,13 +146,17 @@ font-size: 16px;
 
 .content
 {
-    /* background-color: rgb(92, 153, 131); */
+    background-color: rgb(197, 214, 208, 0.35);
     height: 400px;
     display: flex;
+    margin-top: 25px; 
+    margin-bottom: 25px;
+    border-radius: 20px;
 }
 
 .content-left
 {
+    padding: 40px;
 font-family: var(--font1);
 /* width: 50%; */
 display: flex;
@@ -176,6 +180,7 @@ justify-content: center;
     height: 300px;
     width: 300px;
     border: 3px solid black;
+    margin-right: 20px;
     border-radius: 50px;
 }
 
@@ -186,9 +191,11 @@ justify-content: center;
 
 .home-article
 {
-    /* background-color: aquamarine; */
+    margin-top: 25px;
+    background-color: rgba(233, 217, 194, 0.4);
     /* height: 1000px; */
     padding: 10px;
+    border-radius: 20px;
 }
 
 .home-article h2
@@ -215,6 +222,17 @@ margin: 20px;
     padding: 0px 20px;
     display: flex;
     flex-direction: column;
+}
+
+.article-home-content a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.article-home-content a:hover
+{
+color: rgb(124, 123, 121);
 }
 
 /* Footer CSS Begins Here */
