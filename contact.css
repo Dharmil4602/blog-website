@@ -1,0 +1,41 @@
+.contact-content
+{
+    /* display: flex; */
+    /* margin-top: 25px; 
+    margin-bottom: 25px; */
+    width: 80vw;
+    margin: 10px auto;
+    background-color: rgb(182 183 183 / 35%);
+    /* background-color: rgb(197, 214, 208, 0.35); */
+    height: 400px;
+    border-radius: 20px;
+}
+
+.h-contact
+{
+    margin: auto 20px;
+}
+.contact-form
+{
+margin: 40px;
+}
+
+.form-box
+{
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.form-box span
+{
+    font-size: 25px;
+    font-family: var(--font2);
+}
+
+.form-box input
+{
+    width: 20vw;
+    padding: 10px;
+    /* font-size: 12px; */
+    /* font-family: var(--font2); */
+}

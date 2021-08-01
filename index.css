@@ -118,8 +118,9 @@ display: flex;
 
 .search
 {
+    width: 15vw;
     margin: 0 5px;
-    padding: 5px 30px;
+    padding: 5px 10px;
     font-size: 16px;
     border: 3px solid black;
     border-radius: 10px;
@@ -184,24 +185,46 @@ justify-content: center;
     border-radius: 50px;
 }
 
-.h-featured
+/* .h-featured
 {
     text-decoration: underline;
-}
+} */
+
 
 .home-article
 {
     margin-top: 25px;
-    background-color: rgba(233, 217, 194, 0.4);
+    background-color: rgba(233, 217, 194, 0.25);
     /* height: 1000px; */
     padding: 10px;
     border-radius: 20px;
+    position: relative;
 }
 
-.home-article h2
+.year-box
+{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    /* background-color: aqua; */
+    right: 300px; 
+    top: 100px;
+}
+.year-box h2
+{
+   margin: 10px 10px 10px 0;
+}
+
+.year-box div
+{
+    margin: 8px 0;
+}
+
+/* .home-article h2
 {
     text-align: center;
-}
+} */
+
 
 .article-home
 {
