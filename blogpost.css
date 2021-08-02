@@ -17,7 +17,7 @@
 .blog-img img
 {
     height: 500px;
-    width: 80vw;
+    width: 100%;
     border: 3px solid black;
     border-radius: 20px;
 }

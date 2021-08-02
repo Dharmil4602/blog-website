@@ -148,7 +148,7 @@ font-size: 16px;
 .content
 {
     background-color: rgb(197, 214, 208, 0.35);
-    height: 400px;
+    /* height: 400px; */
     display: flex;
     margin-top: 25px; 
     margin-bottom: 25px;
@@ -181,7 +181,7 @@ justify-content: center;
     height: 300px;
     width: 300px;
     border: 3px solid black;
-    margin-right: 20px;
+    margin: 20px 30px 20px;
     border-radius: 50px;
 }
 
