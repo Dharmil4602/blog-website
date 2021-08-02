@@ -77,7 +77,7 @@ font-family: var(--font6);
 {
     margin-top: 10px;
     /* background-color: rgb(103, 143, 143); */
-    height: 85px;
+    /* height: 85px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -204,10 +204,11 @@ justify-content: center;
 .year-box
 {
     position: absolute;
+    /* position: fixed; */
     width: 250px;
     height: 250px;
     /* background-color: aqua; */
-    right: 300px; 
+    right: 80px; 
     top: 100px;
 }
 .year-box h2
@@ -241,6 +242,7 @@ margin: 20px;
 
 .article-home-content
 {
+    width: 400px;
     align-self: center;
     padding: 0px 20px;
     display: flex;

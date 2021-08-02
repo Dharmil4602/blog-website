@@ -1,6 +1,6 @@
 .blogpost-meta
 {
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     justify-content: space-between;
 }
@@ -39,6 +39,53 @@
     padding: 10px;
     font-size: 20px;
     font-weight: 200;
+}
+
+.author-info
+{
+    margin: 10px 0;
+}
+.author-info div
+{
+padding: 5px 10px;
+font-family: cursive;
+font-weight: bold;
+}
+
+.social-share
+{
+    margin: 15px 45px;
+}
+
+.social-share img
+{
+    cursor: pointer;
+}
+.insta
+{
+    height: 40px;
+    width: 40px;
+    /* top: 665px;
+    right: 409px;
+    position: absolute; */
+}
+
+.facebook
+{
+    height: 40px;
+    width: 40px;
+}
+
+.whatsapp
+{
+    height: 40px;
+    width: 40px;
+}
+
+.linkedin
+{
+    height: 40px;
+    width: 40px;
 }
 
 .row
