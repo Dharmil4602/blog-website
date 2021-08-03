@@ -100,6 +100,10 @@ width: 200px;
     flex-direction: column;
 }
 
+.blog-post-content
+{
+    margin: 20px 50px;
+}
 .blog-img img
 {
     height: 100%;
